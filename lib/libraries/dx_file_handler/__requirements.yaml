@@ -1,0 +1,5 @@
+dependencies:
+  file_picker: any
+  flutter_bloc: any
+  flutter_dropzone: any
+  get_cubit: any

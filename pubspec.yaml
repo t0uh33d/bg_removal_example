@@ -21,6 +21,11 @@ dependencies:
     git: 
       url: git@gitlab.com-codewave:codewave-technologies/flutter-wiretap.git
       ref: main
+  camera: ^0.10.5+9
+  image: ^4.1.7
+  file_picker: ^8.0.0+1
+  flutter_dropzone: ^4.0.0
+  http: ^1.2.1
 dev_dependencies: 
   flutter_lints: ^3.0.0
   flutter_test: 

@@ -1,3 +1,5 @@
+import 'package:bg_removal_app/features/background_image_extracter/background_image_extractor.dart';
+
 import 'app_middleware.dart';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
@@ -16,12 +18,12 @@ class AppRouter {
 
   List<RouteBase> get _routes {
     return <RouteBase>[
-      // GoRoute(
-      //   path: '/',
-      //   builder: (BuildContext context, GoRouterState state) {
-      //      your initial route goes here
-      //   },
-      // ),
+      GoRoute(
+        path: '/',
+        builder: (BuildContext context, GoRouterState state) {
+          return const BackgroundImageExtractor();
+        },
+      ),
     ];
   }
 

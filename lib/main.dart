@@ -41,11 +41,11 @@ class MyApp extends StatelessWidget {
                 initialEntries: [
                   OverlayEntry(
                     builder: (context) {
-                      Wiretap.initialize(
-                        context: context,
-                        freshContextFetcher: () =>
-                            AppRouter.navigatorKey.currentContext!,
-                      );
+                      // Wiretap.initialize(
+                      //   context: context,
+                      //   freshContextFetcher: () =>
+                      //       AppRouter.navigatorKey.currentContext!,
+                      // );
                       return child ?? const SizedBox();
                     },
                   )
